@@ -1,6 +1,6 @@
 /* form.css */
 .form-container {
-  max-width: 500px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 25px;
   background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Instagram Gradient */
@@ -8,6 +8,7 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: "Poppins", sans-serif;
+  height: 500px;
 }
 
 h2 {
@@ -32,6 +33,7 @@ input, select {
   background: #fff;
   outline: none;
   transition: 0.3s;
+  height: 50px;
 }
 
 input:focus, select:focus {
@@ -49,6 +51,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
+  height: 50px;
 }
 
 button:hover {
